@@ -1,0 +1,75 @@
+.more-screen .user-component {
+  margin-bottom: 30px;
+}
+
+.more-screen .icons-list {
+  padding-bottom: 40px;
+  border-bottom: var(--main-border);
+}
+
+.more-suggestions {
+  padding-top: 35px;
+}
+
+.more-suggestions__title {
+  margin-bottom: 30px;
+}
+
+.more-suggestions__icons {
+  display: flex;
+  align-items: center;
+}
+
+.more-suggestions__icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.more-suggestions__icon-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--yellow);
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+@keyframes smileWink {
+  from {
+    transform: rotateZ(45deg);
+  }
+  to {
+    transform: rotateZ(-45deg);
+  }
+}
+
+@keyframes paintRoller {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+
+  80% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: none;
+  }
+}
+
+.icons-list__icon .fa-smile-wink:hover {
+  animation: smileWink 400ms linear infinite alternate;
+}
+
+.icons-list__icon .fa-paint-roller:hover {
+  animation: paintRoller 3s linear infinite;
+}

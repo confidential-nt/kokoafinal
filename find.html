@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find | Kokoa Talk</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="status-bar__service">No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>11%</span>
+        <i class="fas fa-battery-quarter fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Find</h1>
+      <div class="screen-header__icons">
+        <span> <i class="fas fa-search fa-lg"></i> </span>
+        <span>
+          <a href="./settings.html"> <i class="fas fa-cog fa-lg"></i></a>
+          <div class="min-badge"></div>
+        </span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <ul class="icons-list">
+        <li class="icons-list__icon">
+          <a href="#" class="icons-list__icon-link">
+            <i class="fas fa-qrcode"></i>
+            <span>QR code</span>
+          </a>
+        </li>
+        <li class="icons-list__icon">
+          <a href="#" class="icons-list__icon-link">
+            <i class="far fa-address-book"></i>
+            <span>Add by Contacts</span>
+          </a>
+        </li>
+        <li class="icons-list__icon">
+          <a href="#" class="icons-list__icon-link">
+            <i class="fas fa-fingerprint"></i>
+            <span>Add by ID</span>
+          </a>
+        </li>
+        <li class="icons-list__icon">
+          <a href="#" class="icons-list__icon-link">
+            <i class="far fa-envelope"></i>
+            <span>Invite</span>
+          </a>
+        </li>
+      </ul>
+
+      <section class="find-recommended-friends">
+        <h5 class="find-recommended-friends__title">Recommended Friends</h5>
+        <div class="find-recommended-friends__text">
+          <p>You have no recommended friends.</p>
+        </div>
+      </section>
+
+      <section class="find-open-chats">
+        <header class="find-open-chats__header">
+          <h5>Open Chat</h5>
+          <a href="#"
+            >Go to Openchat Home <i class="fas fa-chevron-right fa-xs"></i
+          ></a>
+        </header>
+        <ul class="find-open-chats__list">
+          <li class="find-open-chats__open-chat">
+            <div class="find-open-chat__column">
+              <div class="find-open-chat__hashtags">
+                <span>#Minnie</span>
+                <span>#Minnie#Nevie#FRIENDS</span>
+              </div>
+              <div class="find-open-chat__status">
+                <img src="./images/user.jpg" alt="" />
+                <span class="find-open-chat__member-count">802 members</span>
+                <div class="vertical-bar"></div>
+                <span class="find-open-chat__active-or-not">active</span>
+              </div>
+            </div>
+            <div class="find-open-chat__column">
+              <div class="find-open-chat__photo">
+                <button class="heart-count">
+                  <i class="far fa-heart fa-xs"></i> 326
+                </button>
+              </div>
+            </div>
+          </li>
+          <li class="find-open-chats__open-chat">
+            <div class="find-open-chat__column">
+              <div class="find-open-chat__hashtags">
+                <span>#Minnie</span>
+                <span>#Minnie#Nevie#FRIENDS</span>
+              </div>
+              <div class="find-open-chat__status">
+                <img src="./images/user.jpg" alt="" />
+                <span class="find-open-chat__member-count">802 members</span>
+                <div class="vertical-bar"></div>
+                <span class="find-open-chat__active-or-not">active</span>
+              </div>
+            </div>
+            <div class="find-open-chat__column">
+              <div class="find-open-chat__photo">
+                <button class="heart-count">
+                  <i class="far fa-heart fa-xs"></i> 326
+                </button>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <nav class="nav-bar">
+      <ul class="nav-bar__list">
+        <li class="nav-bar__btn">
+          <a href="./friends.html">
+            <i class="far fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav-bar__btn">
+          <a href="./chats.html">
+            <i class="far fa-comment fa-2x"></i>
+            <div class="nav-bar__chat-alarm badge">1</div>
+          </a>
+        </li>
+        <li class="nav-bar__btn">
+          <a href="./find.html">
+            <i class="fas fa-search fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav-bar__btn">
+          <a href="./more.html">
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+            <div class="nav-bar__more-alarm min-badge"></div>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="hide">Your screen is too big! ㅠ</div>
+    <script
+      src="https://kit.fontawesome.com/012b6cbaec.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

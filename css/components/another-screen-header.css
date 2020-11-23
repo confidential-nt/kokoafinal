@@ -1,0 +1,28 @@
+.another-screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 25px 25px 25px;
+  margin-bottom: 15px;
+}
+
+.another-screen-header__column {
+  width: 33%;
+}
+
+.another-screen-header__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.another-screen-header__title {
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.another-screen-header__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+}

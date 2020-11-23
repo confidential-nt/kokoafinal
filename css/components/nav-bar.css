@@ -1,0 +1,52 @@
+@keyframes navAppear {
+  from {
+    transform: translateY(70px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes chatAlarm {
+  from {
+    transform: none;
+  }
+
+  to {
+    transform: scale(0.8);
+  }
+}
+
+.nav-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  transform: translateY(70px);
+  width: 100%;
+  padding: 20px 0;
+  background-color: #f9f9fa;
+  border-top: 1px solid #e8e8e8;
+  animation: navAppear 400ms ease-in-out forwards;
+}
+
+.nav-bar__list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-bar a {
+  position: relative;
+}
+
+.nav-bar__chat-alarm {
+  bottom: 15px;
+  left: 15px;
+  position: absolute;
+  animation: chatAlarm 1s ease-in-out alternate infinite;
+}
+
+.nav-bar__more-alarm {
+  right: -10px;
+  bottom: 30px;
+}

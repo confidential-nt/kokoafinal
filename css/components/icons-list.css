@@ -1,0 +1,18 @@
+.icons-list {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.icons-list__icon-link {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  opacity: 0.8;
+}
+
+.icons-list__icon-link i {
+  font-size: 35px;
+  margin-bottom: 18px;
+}

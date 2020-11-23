@@ -1,0 +1,53 @@
+@keyframes musicIcon {
+  from {
+    transform: none;
+  }
+
+  to {
+    transform: rotate(45deg);
+  }
+}
+
+@keyframes cogIcon {
+  from {
+    transform: none;
+  }
+
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 25px 25px 25px;
+  margin-bottom: 15px;
+}
+
+.screen-header__title {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.screen-header__icons span {
+  margin-left: 25px;
+}
+
+.screen-header__icons span:last-child {
+  position: relative;
+}
+
+.screen-header__icons span .fa-music {
+  animation: musicIcon 1s ease-in-out alternate infinite;
+}
+
+.screen-header__icons span .fa-cog:hover {
+  animation: cogIcon 2s linear infinite;
+}
+
+.screen-header__icons .min-badge {
+  right: -5px;
+  bottom: 20px;
+}

@@ -1,0 +1,67 @@
+.login-screen {
+  margin-top: 30px;
+}
+
+.login-header {
+  padding: 60px 0 90px 0;
+  text-align: center;
+}
+
+.login-header__title {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.login-header__text {
+  opacity: 0.6;
+}
+
+.login-form {
+  width: 100%;
+  padding: 0 30px;
+  text-align: center;
+}
+
+.login-form input {
+  width: 100%;
+  border: none;
+  font-size: 18px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  border-bottom: var(--main-border);
+  padding: 15px 0;
+  font-weight: 400;
+  margin-bottom: 25px;
+  transition: border-bottom 200ms ease-in-out;
+}
+
+.login-form input[type="text"]:focus,
+.login-form input[type="password"]:focus {
+  border-bottom: 1px solid var(--yellow);
+}
+
+.login-form input::placeholder {
+  opacity: 0.6;
+}
+
+.login-form input[type="submit"] {
+  background-color: var(--yellow);
+  padding: 20px 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-form input[value="Log In"] {
+  margin-bottom: 20px;
+}
+
+.login-form input[value="Sign Up"] {
+  margin-bottom: 23px;
+}
+
+.login-form__link {
+  font-size: 13px;
+  opacity: 0.8;
+}

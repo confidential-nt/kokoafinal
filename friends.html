@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends | Kokoa Talk</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="status-bar__service">No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>11%</span>
+        <i class="fas fa-battery-quarter fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+  
+    <header class="screen-header">
+      <h1 class="screen-header__title">Friends</h1>
+      <div class="screen-header__icons">
+        <span> <i class="fas fa-search fa-lg"></i> </span>
+        <span> <i class="fas fa-music fa-lg"></i> </span>
+        <span> <a href="./settings.html"> <i class="fas fa-cog fa-lg"></i></a> </i></span>
+      </div>
+    </header>
+  
+    <a href="#" class="friends-display-link">
+      <i class="fas fa-info-circle"></i>
+      Friends' Names Display
+      <i class="fas fa-chevron-right fa-xs"></i>
+    </a>
+  
+    <main class="main-screen">
+        <div class="user-component">
+           <div class="user-component__column">
+              <img src="./images/user.jpg" alt="" class="user-component__avatar user-component__avatar--xl">
+              <div class="user-component__text">
+                  <strong class="user-component__name">Nicha</strong>
+              </div>
+           </div>
+           <div class="user-component__column"></div>
+        </div>
+  
+       <div class="friends-channel">
+          <header class="friends-channel__header">
+              <h5>Channel</h5>
+              <i class="fas fa-chevron-up fa-xs"></i>
+          </header>
+           <ul class="friends-channel__list">
+               <li class="friends-channel-list__item">
+                  <div class="user-component">
+                      <div class="user-component__column">
+                         <img src="./images/user.jpg" alt="" class="user-component__avatar user-component__avatar--sm">
+                         <div class="user-component__text">
+                          <strong class="user-component__name user-component__name--not-bold">My friend</strong>
+                         </div>
+                      </div>
+                      <div class="user-component__column">
+                         <div>
+                          <span>2</span>
+                          <i class="fas fa-chevron-right fa-xs"></i>
+                         </div>
+                      </div>
+                   </div>
+               </li>
+           </ul>
+       </div>
+    </main>
+  
+    <nav class="nav-bar">
+      <ul class="nav-bar__list">
+        <li class="nav-bar__btn">
+          <a href="./friends.html">
+            <i class="fas fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav-bar__btn">
+          <a href="./chats.html">
+            <i class="far fa-comment fa-2x"></i>
+            <div class="nav-bar__chat-alarm badge">1</div>
+          </a>
+        </li>
+        <li class="nav-bar__btn">
+          <a href="./find.html">
+            <i class="fas fa-search fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav-bar__btn">
+          <a href="./more.html">
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+            <div class="nav-bar__more-alarm min-badge"></div>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    
+    <div class="start-screen">
+      <div></div>
+    </div>
+    <div class="hide">Your screen is too big! ㅠ</div>
+    <script
+      src="https://kit.fontawesome.com/012b6cbaec.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
