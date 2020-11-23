@@ -51,12 +51,5 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.start-screen > div {
-  background-color: #3b1c1c;
-  width: 260px;
-  height: 170px;
-  border-radius: 50%;
-  border-bottom-left-radius: 0;
+  font-size: 200px;
 }

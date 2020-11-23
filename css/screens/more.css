@@ -5,6 +5,9 @@
 .more-screen .icons-list {
   padding-bottom: 40px;
   border-bottom: var(--main-border);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px 0;
 }
 
 .more-suggestions {

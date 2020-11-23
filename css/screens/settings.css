@@ -39,9 +39,22 @@
   height: 20px;
   font-size: 12px;
   margin-left: 6px;
+  animation: newMove 1s ease-in-out infinite;
 }
 
 .settings-list__item__desc {
   opacity: 0.7;
   font-size: 17px;
+}
+
+@keyframes newMove {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-10px) rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
 }
